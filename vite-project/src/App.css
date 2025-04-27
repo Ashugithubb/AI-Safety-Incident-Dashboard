@@ -1,0 +1,90 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+select {
+  padding: 5px;
+  font-size: 16px;
+}
+
+.incident-list {
+  list-style: none;
+  padding: 0;
+}
+
+.incident-item {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.incident-item:hover {
+  background-color: #f9f9f9;
+}
+
+.incident-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.view-details {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.view-details:hover {
+  background-color: #0056b3;
+}
+
+.incident-description {
+  margin-top: 10px;
+}
+
+.incident-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+input, textarea {
+  padding: 10px;
+  font-size: 16px;
+}
+
+button[type="submit"] {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: darkgreen;
+}
+
+
+
