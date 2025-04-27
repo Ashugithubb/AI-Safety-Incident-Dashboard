@@ -13,7 +13,6 @@ It allows users to:
 - Sort incidents by newest or oldest reported date.
 - Submit new incidents via a form.
 - Responsive, clean UI.
-
 ---
 
 ## 📂 Project Structure
